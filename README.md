@@ -10,3 +10,5 @@ It was important to follow best practices for this assignment. It would have bee
 4. Install requirements using command `pip install -r requirements.txt`
 5. Start the server by running `python manage.py runserver`
 6. Data should already be present in sqlite3, but if its not you can run `python manage.py migrate` and then `python manage.py loaddata students_classes.json` to load the students_classes.json fixture.
+7. Enter http://127.0.0.1:8000/ in your browser.
+
