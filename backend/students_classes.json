@@ -1,0 +1,821 @@
+[
+  {
+    "model": "students.student",
+    "pk": 1,
+    "fields": {
+      "first": "John",
+      "last": "Smith",
+			"email": "johnsmith@mailinator.com"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 2,
+    "fields": {
+			"first": "Jane",
+			"last": "Smith",
+			"email": "janesmith@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 3,
+    "fields": {
+			"first": "Jim",
+			"last": "Johnson",
+			"email": "jim-johnson@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 4,
+    "fields": {
+			"first": "Tyler",
+			"last": "Cortez",
+			"email": "tyler_cortez@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 5,
+    "fields": {
+			"first": "Julio",
+			"last": "Jones",
+			"email": "jjones@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 6,
+    "fields": {
+			"first": "Jamaal",
+			"last": "Ortez",
+			"email": "jamaal-ortez@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 7,
+    "fields": {
+			"first": "Mike",
+			"last": "Williams",
+			"email": "mikewilliams@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 8,
+    "fields": {
+			"first": "Joe",
+			"last": "Xue",
+			"email": "joe_xue@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 9,
+    "fields": {
+			"first": "Alan",
+			"last": "Jordan",
+			"email": "ajordan@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 10,
+    "fields": {
+			"first": "Samantha",
+			"last": "Ware",
+			"email": "sware@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 11,
+    "fields": {
+			"first": "Michael",
+			"last": "Soo",
+			"email": "michael_soo@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 12,
+    "fields": {
+			"first": "Mary",
+			"last": "Moon",
+			"email": "mmoon@mailinator.com"
+    }
+  },
+	{
+    "model": "students.student",
+    "pk": 13,
+    "fields": {
+			"first": "Jose",
+			"last": "Santiago",
+			"email": "jsantiago@mailinator.com"
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 1,
+    "fields": {
+			"course": 1,
+			"grade": 4,
+			"student": 1
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 2,
+    "fields": {
+			"course": 2,
+			"grade": 3,
+			"student": 1
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 3,
+    "fields": {
+			"course": 3,
+			"grade": 2,
+			"student": 1
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 4,
+    "fields": {
+      "course": 4,
+      "grade": 2.5,
+			"student": 1
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 5,
+    "fields": {
+      "course": 5,
+      "grade": 3.5,
+			"student": 1
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 6,
+    "fields": {
+      "course": 6,
+      "grade": 4,
+			"student": 1
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 7,
+    "fields": {
+      "course": 1,
+      "grade": 3,
+			"student": 2
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 8,
+    "fields": {
+      "course": 2,
+      "grade": 2,
+			"student": 2
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 9,
+    "fields": {
+      "course": 3,
+      "grade": 2.5,
+			"student": 2
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 10,
+    "fields": {
+      "course": 5,
+      "grade": 3.5,
+			"student": 2
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 11,
+    "fields": {
+      "course": 6,
+      "grade": 2,
+			"student": 2
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 12,
+    "fields": {
+      "course": 7,
+      "grade": 3.5,
+      "student": 2
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 13,
+    "fields": {
+      "course": 1,
+      "grade": 2.5,
+      "student": 3
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 14,
+    "fields": {
+      "course": 3,
+      "grade": 3.5,
+      "student": 3
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 15,
+    "fields": {
+      "course": 5,
+      "grade": 4,
+      "student": 3
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 16,
+    "fields": {
+      "course": 7,
+      "grade": 3,
+      "student": 3
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 17,
+    "fields": {
+      "course": 2,
+      "grade": 2,
+      "student": 3
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 18,
+    "fields": {
+      "course": 4,
+      "grade": 2.5,
+      "student": 3
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 19,
+    "fields": {
+      "course": 2,
+      "grade": 3.5,
+      "student": 4
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 20,
+    "fields": {
+      "course": 4,
+      "grade": 4,
+      "student": 4
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 21,
+    "fields": {
+      "course": 6,
+      "grade": 3.5,
+      "student": 4
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 22,
+    "fields": {
+      "course": 8,
+      "grade": 3,
+      "student": 4
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 23,
+    "fields": {
+      "course": 1,
+      "grade": 2.5,
+      "student": 4
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 24,
+    "fields": {
+      "course": 3,
+      "grade": 3,
+      "student": 4
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 25,
+    "fields": {
+      "course": 8,
+      "grade": 2.5,
+      "student": 5
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 26,
+    "fields": {
+      "course": 7,
+      "grade": 2.5,
+      "student": 5
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 27,
+    "fields": {
+      "course": 6,
+      "grade": 2.5,
+      "student": 5
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 28,
+    "fields": {
+      "course": 5,
+      "grade": 3,
+      "student": 5
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 29,
+    "fields": {
+      "course": 4,
+      "grade": 2.5,
+      "student": 5
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 30,
+    "fields": {
+      "course": 3,
+      "grade": 3.5,
+      "student": 5
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 31,
+    "fields": {
+      "course": 2,
+      "grade": 3.5,
+      "student": 6
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 32,
+    "fields": {
+      "course": 3,
+      "grade": 2.5,
+      "student": 6
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 33,
+    "fields": {
+      "course": 4,
+      "grade": 3,
+      "student": 6
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 34,
+    "fields": {
+      "course": 5,
+      "grade": 4,
+      "student": 6
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 35,
+    "fields": {
+      "course": 6,
+      "grade": 1.5,
+      "student": 6
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 36,
+    "fields": {
+      "course": 7,
+      "grade": 3,
+      "student": 6
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 37,
+    "fields": {
+      "course": 4,
+      "grade": 2,
+      "student": 7
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 38,
+    "fields": {
+      "course": 5,
+      "grade": 3,
+      "student": 7
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 39,
+    "fields": {
+      "course": 6,
+      "grade": 4,
+      "student": 7
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 40,
+    "fields": {
+      "course": 7,
+      "grade": 2,
+      "student": 7
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 41,
+    "fields": {
+      "course": 8,
+      "grade": 1.5,
+      "student": 7
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 42,
+    "fields": {
+      "course": 1,
+      "grade": 3.5,
+      "student": 7
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 43,
+    "fields": {
+      "course": 3,
+      "grade": 4,
+      "student": 8
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 44,
+    "fields": {
+      "course": 4,
+      "grade": 4,
+      "student": 8
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 45,
+    "fields": {
+      "course": 5,
+      "grade": 3.5,
+      "student": 8
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 46,
+    "fields": {
+      "course": 6,
+      "grade": 3.5,
+      "student": 8
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 47,
+    "fields": {
+      "course": 7,
+      "grade": 3,
+      "student": 8
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 48,
+    "fields": {
+      "course": 8,
+      "grade": 3.5,
+      "student": 8
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 49,
+    "fields": {
+      "course": 1,
+      "grade": 2,
+      "student": 9
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 50,
+    "fields": {
+      "course": 2,
+      "grade": 1.5,
+      "student": 9
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 51,
+    "fields": {
+      "course": 3,
+      "grade": 2.5,
+      "student": 9
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 52,
+    "fields": {
+      "course": 6,
+      "grade": 2,
+      "student": 9
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 53,
+    "fields": {
+      "course": 7,
+      "grade": 2.5,
+      "student": 9
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 54,
+    "fields": {
+      "course": 8,
+      "grade": 2,
+      "student": 9
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 55,
+    "fields": {
+      "course": 1,
+      "grade": 4,
+      "student": 10
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 56,
+    "fields": {
+      "course": 3,
+      "grade": 4,
+      "student": 10
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 57,
+    "fields": {
+      "course": 4,
+      "grade": 4,
+      "student": 10
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 58,
+    "fields": {
+      "course": 5,
+      "grade": 3.5,
+      "student": 10
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 59,
+    "fields": {
+      "course": 6,
+      "grade": 3,
+      "student": 10
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 60,
+    "fields": {
+      "course": 8,
+      "grade": 4,
+      "student": 10
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 61,
+    "fields": {
+      "course": 2,
+      "grade": 2,
+      "student": 11
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 62,
+    "fields": {
+      "course": 4,
+      "grade": 1,
+      "student": 11
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 63,
+    "fields": {
+      "course": 5,
+      "grade": 1,
+      "student": 11
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 64,
+    "fields": {
+      "course": 6,
+      "grade": 2,
+      "student": 11
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 65,
+    "fields": {
+      "course": 7,
+      "grade": 2,
+      "student": 11
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 66,
+    "fields": {
+      "course": 1,
+      "grade": 1.5,
+      "student": 11
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 67,
+    "fields": {
+      "course": 1,
+      "grade": 3,
+      "student": 12
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 68,
+    "fields": {
+      "course": 2,
+      "grade": 3,
+      "student": 12
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 69,
+    "fields": {
+      "course": 3,
+      "grade": 3.5,
+      "student": 12
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 70,
+    "fields": {
+      "course": 4,
+      "grade": 2.5,
+      "student": 12
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 71,
+    "fields": {
+      "course": 5,
+      "grade": 2,
+      "student": 12
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 72,
+    "fields": {
+      "course": 6,
+      "grade": 3,
+      "student": 12
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 73,
+    "fields": {
+      "course": 2,
+      "grade": 4,
+      "student": 13
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 74,
+    "fields": {
+      "course": 3,
+      "grade": 2,
+      "student": 13
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 75,
+    "fields": {
+      "course": 4,
+      "grade": 2,
+      "student": 13
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 76,
+    "fields": {
+      "course": 5,
+      "grade": 2.5,
+      "student": 13
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 77,
+    "fields": {
+      "course": 6,
+      "grade": 3.5,
+      "student": 13
+    }
+  },
+  {
+    "model": "classes.class",
+    "pk": 78,
+    "fields": {
+      "course": 8,
+      "grade": 4,
+      "student": 13
+    }
+  }
+]

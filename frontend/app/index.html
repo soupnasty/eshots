@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <title>Student Search</title>
+      <script src="{% static 'dist/js/bundle.js' %}" ></script>
+      <script   src="http://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+      <base href="/">
+  </head>
+  <body>
+    <div>
+      <div ng-view></div>
+    </div>
+  </body>
+</html>
+
+
+

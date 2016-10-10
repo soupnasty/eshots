@@ -1,0 +1,33 @@
+<div ng-controller="DetailController as ctrl" ng-init="ctrl.init()">
+
+  <ul class="list-group">
+    <li class="list-group-item"><strong>First Name:</strong>  {{ctrl.student.first}}</li>
+    <li class="list-group-item"><strong>Last Name:</strong>  {{ctrl.student.last}}</li>
+    <li class="list-group-item"><strong>GPA:</strong>  {{ctrl.student.average_gpa}}</li>
+    <li class="list-group-item"><strong>Email:</strong> {{ctrl.student.email}}</li>
+  </ul>
+  <div class="table-responsive col-md-10">
+      <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Course:</th>
+              <th>Grade:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="class in ctrl.student.student_classes">
+              <td>{{ class.course }}</td>
+              <td>{{ class.grade }}</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+
+  <div>
+    <br />
+    <a href="#/">Back to Home</a>
+  </div>
+
+</div>
+
+
