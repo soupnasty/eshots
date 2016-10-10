@@ -5,8 +5,8 @@ It was important to follow best practices for this assignment. It would have bee
 
 ## Steps to launch
 1. Clone or pull the git repo
-2. Create a virtual env
-3. Open up a new terminal process (need two process -> backend & frontend)
+2. Create a python3 virtual env and activate it
 3. cd into the backend directory
 4. Install requirements using command `pip install -r requirements.txt`
-5. Data should already be present in sqlite3, but if its not run `python manage.py migrate` and then `python manage.py loaddata students_classes.json` to load the initial data provided.
+5. Start the server by running `python manage.py runserver`
+6. Data should already be present in sqlite3, but if its not you can run `python manage.py migrate` and then `python manage.py loaddata students_classes.json` to load the students_classes.json fixture.
